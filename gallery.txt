@@ -1,0 +1,36 @@
+<!-- <section class="gallery section ">
+        <h2 class="section-title "> Dog Gallery</h2>
+        <div class="gallery-center ">
+            <div>
+                <img src="https://images.pexels.com/photos/46505/swiss-shepherd-dog-dog-pet-portrait-46505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" ">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium neque at non impedit commodi quam quas laboriosam officiis mollitia ipsa?
+                </p>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/1294062/pexels-photo-1294062.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 " alt=" ">
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/128817/pexels-photo-128817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" ">
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/3475679/pexels-photo-3475679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" ">
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/1490908/pexels-photo-1490908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" ">
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/253308/pexels-photo-253308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" ">
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/3263470/pexels-photo-3263470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" ">
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/773971/pexels-photo-773971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" ">
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/3198016/pexels-photo-3198016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 " alt=" ">
+            </div>
+        </div>
+
+    </section> -->

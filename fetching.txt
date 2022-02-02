@@ -1,0 +1,36 @@
+//fetching data
+const url = 'https://api.TheDogAPI.com/v1/breeds';
+const fetchedData = async() => {
+    const response = await fetch(url);
+    const data = await response.json();
+    const infos = data.map((info) => {
+        console.log(info);
+        const { id, name, history: origin, image: { url }, temperament, life_span, breed_group } = info
+        console.log(origin);
+        return `<article class="featured-card">
+        <a href="
+">
+            <h4 class="card-title"> ${name} </h4>
+            <div class="animal-details">
+                <div class="animal-img-wrapper">
+                    <img src="${url}" alt="" />
+                </div>
+                <div class="animal-info">
+                    <p class="animal-text">
+                        ${temperament}
+                    </p>
+                    <ul>
+                        <li>
+
+                            <i class="far fa-check-square"></i> ${life_span} <br/>life-span</li>
+                            <li><i class="far fa-check-square"></i>${breed_group}</li>
+                    </ul>
+                </div>
+            </div>
+        </a>
+    </article>`
+    }).join('');
+    const section = document.querySelector('.featured-center')
+    section.innerHTML = infos
+};
+fetchedData()
