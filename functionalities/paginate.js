@@ -1,5 +1,5 @@
 const paginate = (dogs) => {
-    const itemsPerPage = 20
+    const itemsPerPage = 21
     const numberOfPages = Math.ceil(dogs.length / itemsPerPage)
     const newDogs = Array.from({ length: numberOfPages }, (_, index) => {
         const start = index * itemsPerPage

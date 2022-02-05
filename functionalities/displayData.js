@@ -29,14 +29,14 @@ const displayData = async(dogs) => {
            </div>
        </div>
    </div>
-   <a href='${url}'> <button class="btn featured-btn"> View More</button>
+   <a href='${url}' target='_blank'> <button class="btn featured-btn"> View More</button>
    </a>
 
 </article>`
         })
         .join('')
     const section = document.querySelector('.featured-center')
-    console.log(section)
+
     section.innerHTML = newDogs
 }
 export default displayData

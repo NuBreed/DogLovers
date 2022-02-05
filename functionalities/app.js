@@ -34,9 +34,14 @@ const setupUI = () => {
 }
 const displayButtons = (container, pages, activeIndex) => {
     let buttons = pages.map((_, pageIndex) => {
-        console.log(pageIndex)
-        return `<button class="btn page-btn">${pageIndex + 1}</button>`
-    })
+            return `<button class="btn page-btn ${
+      activeIndex === pageIndex ? 'active-btn' : 'null'
+    }" data-index="${pageIndex}">${pageIndex + 1}
+    
+    </button>`
+        })
+        // buttons.push('<button class="next-btn page-btn btn">next</button>')
+        // buttons.unshift('<button class="prev-btn page-btn btn">prev</button>')
     container.innerHTML = buttons.join('')
 }
 const init = async() => {
@@ -44,5 +49,14 @@ const init = async() => {
     pages = paginate(dogs)
     setupUI()
 }
+
+btnContainer.addEventListener('click', function(e) {
+    if (e.target.classList.contains('btn-container')) return
+    if (e.target.classList.contains('page-btn')) {
+        index = parseInt(e.target.dataset.index)
+    }
+
+    setupUI()
+})
 
 window.addEventListener('load', init)
