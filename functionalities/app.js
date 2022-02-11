@@ -5,7 +5,7 @@ const navbar = document.querySelector('.nav-links')
 const featured = document.querySelector('.featured-section')
 
 toggleBtn.addEventListener('click', function() {
-    navbar.classList.toggle('hide')
+    navbar.classList.toggle('show')
     toggleBtn.style.scale = '2'
 })
 const year = new Date().getFullYear()
