@@ -545,8 +545,10 @@ img {
 
 /* products */
 
-.product-center {
-    display: flex;
+@media screen and (min-width: 678px) {
+    .product-center {
+        display: flex;
+    }
 }
 
 .product-img-container {
